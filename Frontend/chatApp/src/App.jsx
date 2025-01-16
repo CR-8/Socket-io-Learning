@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./App.css";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:8005");
+const socket = io(" https://8786-2401-4900-855c-f7e2-cc9d-dfa3-c5e4-fd14.ngrok-free.app");
 
 export default function App() {
   const [message, setMessage] = useState("");
